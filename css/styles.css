@@ -1,0 +1,138 @@
+element.style {
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    padding-right: 0px;
+    padding-left: -5;
+    padding-left: -5;
+    height: 70px;
+    width: 70px;
+}
+.rectangle {
+    display: block;
+    height: 5%;
+    width: 6%;
+    border-radius: 15%;
+
+    padding-bottom: 2%;
+    padding-left: 15%;
+    background: #94b394;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.rectangle2
+{
+    display: block;
+        height: 5%;
+        width: 6%;
+        border-radius: 15%;
+    
+        padding-bottom: 2%;
+        padding-left: 15%;
+            background: #b886c1;
+            position: relative;
+            margin-top: 10%;
+            margin-left: 10%;
+}
+.rectangle3 {
+    display: block;
+        height: 5%;
+        width: 6%;
+        border-radius: 15%;
+    
+        padding-bottom: 2%;
+        padding-left: 15%;
+    background: #f2a1a1;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.rectangle4 {
+    display: block;
+        height: 5%;
+        width: 6%;
+        border-radius: 15%;
+    
+        padding-bottom: 2%;
+        padding-left: 15%;
+    background: #e6e6e6;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.inner_rec{
+    position: absolute;
+        height: 3rem;
+        width: 5rem;
+        border-radius: 1rem;
+        border: 1px solid white;
+        left: 9.5rem;
+        margin-left: -35px;
+        top: 10px;
+        background: #94b394;
+}
+.inner_rec2 {
+    position: absolute;
+    height: 3rem;
+    width: 5rem;
+    border-radius: 1rem;
+    border: 1px solid white;
+    left: 9.5rem;
+    margin-left: -35px;
+    top: 10px;
+    background: #b886c1;
+}
+.inner_rec3 {
+    position: absolute;
+    height: 3rem;
+    width: 5rem;
+    border-radius: 1rem;
+    border: 1px solid white;
+    left: 9.5rem;
+    margin-left: -35px;
+    top: 10px;
+    background: #f2a1a1;
+}
+.circle {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    border: 1px solid white;
+    left: 50%;
+    margin-left: -35px;
+    top: -1.5rem;
+    background: #E6E6E6;
+}
+.circle1 {
+    position: relative;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    border: 1px solid white;
+    left: -11rem;
+    margin-left: -35px;
+    top: 20px;
+    background: #E6E6E6;
+}
+
+.Gardening{
+
+    margin-left: 0rem;
+}
+
+#header{
+    padding-top: 4rem;
+    margin-left: -195%;
+
+}
+#header1 {
+    padding-top: 0rem;
+    margin-left: -195%;
+    font-size: 1.2rem;
+    margin-right: 2%;
+}
+
+
