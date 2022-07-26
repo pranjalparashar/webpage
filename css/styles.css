@@ -29,7 +29,7 @@ element.style {
         width: 6%;
         border-radius: 15%;
     
-        padding-bottom: 2%;
+        padding-bottom: 6%;
         padding-left: 15%;
             background: #b886c1;
             position: relative;
@@ -42,7 +42,7 @@ element.style {
         width: 6%;
         border-radius: 15%;
     
-        padding-bottom: 2%;
+        padding-bottom: 4%;
         padding-left: 15%;
     background: #f2a1a1;
     position: relative;
@@ -57,6 +57,32 @@ element.style {
     
         padding-bottom: 2%;
         padding-left: 15%;
+    background: #e6e6e6;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.rectangle22 {
+    display: block;
+    height: 5%;
+    width: 6%;
+    border-radius: 15%;
+
+    padding-bottom: 6%;
+    padding-left: 15%;
+    background: #e6e6e6;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.rectangle23 {
+    display: block;
+    height: 5%;
+    width: 6%;
+    border-radius: 20%;
+
+    padding-bottom: 4%;
+    padding-left: 15%;
     background: #e6e6e6;
     position: relative;
     margin-top: 10%;
@@ -126,10 +152,12 @@ element.style {
 #header{
     padding-top: 4rem;
     margin-left: -195%;
+    margin-bottom: 5px;
 
 }
 #header1 {
     padding-top: 0rem;
+    margin-top: 5px;
     margin-left: -195%;
     font-size: 1.2rem;
     margin-right: 2%;
