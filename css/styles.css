@@ -68,14 +68,16 @@
     top: -12%;
     left: -13%;
 }
-.shuffle{
+
+.shuffle {
     display: block;
-    position:absolute;
+    position: absolute;
     width: 80%;
     object-fit: contain;
     top: 90%;
     left: 45%;
 }
+
 .main {
     position: absolute;
     color: #1d1c1c;
