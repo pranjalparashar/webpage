@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Speech To Code</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body>
+    <!--Scripts used-->
+    <script src="js/voice.js"></script>
+    <script src="js/functionCalls.js"></script>
+    <script src="js/buttons.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/include.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/variables.js"></script>
+    <script src="js/printf.js"></script>
+    <script src="js/ifelse.js"></script>
+    <script src = 'js/loops.js'></script>
+    <script src="js/braces.js"></script>
+    <script src="https://unpkg.com/monaco-editor@latest/min/vs/loader.js"></script>
+    <script src="js/Editor.js"></script>
+
+    <div class="half-screen right">
+      <h1>Speech To Code 💻</h1>
+
+      <div class="introduction">
+        <p>This is our official project for the Principles of Programming Languages(CS F301) course.</p>
+        <p>The speech to code program aims to make an interface for most widely used languages. This is a domain specific language that would help you code without typing!</p>
+      </div>
+
+      <div class="btn-container">
+        <button class="btn start" id="start_stop_button" onclick="startvoicerecognition(event)">
+          Start
+        </button>
+        
+    </div>
+    
+      <div class="team">
+        <h2>Our Team 🙌</h2>
+        <div class="members">        
+          <p><b>Pranjal Parashar: 2020A7PS1695G</b></p>
+          <p><b>Shobhit Gangwal : 2020A7PS1703G</b></p>
+          <p><b>Lavkush Sharma  : 2020A7PS1709G</b></p>
+          <p><b>Dev Goyal       : 2020A7PS1373G</b></p>
+          <p><b>Shrey Khakhi    : 2020A7PS1720G</b></p>
+          <p><b>Atharv Shimpi   : 2020A7PS1722G</b></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="half-screen right full-height" id="text-editor-container">
+        <!-- Text Editor Here -->
+    </div>
+
+  </body>
+</html>
