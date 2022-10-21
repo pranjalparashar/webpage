@@ -1,0 +1,100 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: #ccc;
+  transition: all 2s;
+}
+
+a {
+  color: mediumpurple;
+  text-decoration: underline;
+}
+
+.introduction {
+  padding-right: 20px;
+  font-size: 1.25rem;
+}
+
+.light-theme {
+  background-color: #eee;
+  color: #333;
+}
+
+.light-theme a {
+  color: blue;
+}
+
+.half-screen {
+  width: 45%;
+}
+
+.right {
+  float: right;
+  margin-right: 2.5%;
+}
+
+.left {
+  float: left;
+  margin-left: 2.5%;
+}
+
+.full-height {
+  height: 46rem;
+}
+
+#text-editor-container {
+  transition: all 2s;
+}
+
+
+
+.center{
+    text-align: center;
+}
+.container{
+    padding: 3rem;
+}
+
+.example{
+    background-color: #555;
+    padding: 1rem;
+}
+
+.btn-container {
+  display: flex;
+}
+
+.btn,
+.light-theme .btn {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #555;
+  /* border: 1px #000 solid; */
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  color: #eee;
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-family: monospace;
+  transition: all 2s;
+}
+
+
+
+.team{
+  padding-top: 5rem;
+  padding-right: 20px;
+  
+}
+
+.members{
+  font-size: 1.25rem;
+  
+}
